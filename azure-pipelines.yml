@@ -15,6 +15,9 @@ steps:
     SonarCloud: 'SonarCloud'
     organization: 'azure902'
     scannerMode: 'Other'
+    extraProperties: |
+     sonar.projectKey=Code_Quality
+
 
 - task: Maven@3
   inputs:
